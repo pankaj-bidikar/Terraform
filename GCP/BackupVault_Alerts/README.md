@@ -1,5 +1,3 @@
-### **1. README.md (Updated)**
-
 # Universal Backup Alert Generator (Terraform)
 
 This Terraform module deploys a **Universal Log-Based Alert Policy** for Google Cloud BackupDR. It supports Cloud SQL, Compute Engine, and Persistent Disks.
