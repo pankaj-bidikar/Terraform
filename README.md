@@ -248,7 +248,7 @@ provider "google" {
 }
 ```
 
-In Google Cloud Storage, the `prefix` acts like a **folder path**. Without it, Terraform would dump your state file right at the root of the bucket, which gets messy if you use that bucket for other things later.
+In Google Cloud Storage, the`prefix` acts like a folder path. Without it, Terraform would dump your state file right at the root of the bucket, which gets messy if you use that bucket for other things later.
 
 Here is exactly how that prefix affects your file structure in the bucket, especially since you are using **Workspaces**:
 
